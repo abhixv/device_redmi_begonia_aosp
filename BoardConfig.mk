@@ -144,6 +144,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 
 #AOSP MASTER COMMIT
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # Sepolicy
 include device/mediatek/sepolicy/sepolicy.mk
