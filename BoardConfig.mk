@@ -142,6 +142,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+#AOSP MASTER COMMIT
+BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+
 # Sepolicy
 include device/mediatek/sepolicy/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
